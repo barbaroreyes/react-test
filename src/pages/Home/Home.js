@@ -15,7 +15,7 @@ const Home = () => {
       
        
        </div>
-       <p >Get a ride in minutes Or become a driver.</p>
+       <p >Luxury Rides For Less</p>
        <div className = " btn-container">
      <Link to='/form' className='btn btn-primary'>Book Instantly</Link>
      <Link to='/signIn' className='btn btn-primary'>Sign In </Link>
