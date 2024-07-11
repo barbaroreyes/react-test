@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import axios from "axios";
 import "./form.css";
@@ -20,7 +21,7 @@ const initial = {
 };
 
 const Form = () => {
-  
+  const navigate = useNavigate();
   const [formData, setFormData] = useState(initial);
 
   const handleChange = (e) => {
@@ -31,7 +32,7 @@ const Form = () => {
     e.preventDefault();
     // Send form data to backend
     await axios.post('https://luxuryapp.vercel.app/api/bookings', formData);
-   
+    navigate('/')
     console.log(formData);
   };
 
