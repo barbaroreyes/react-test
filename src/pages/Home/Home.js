@@ -12,8 +12,7 @@ const Home = () => {
         <img src={Corona} alt='pic'/></div>
         <div className='welcome'>
         <span>Welcome</span>
-      
-       
+  
        </div>
        <p >Luxury Rides For Less</p>
        <div className = " btn-container">

@@ -37,8 +37,9 @@ const Form = () => {
   };
 
   return (
-    <div>
-      <h2>Book a Ride</h2>
+    <div className="formContainer">
+      <h2>Book a Ride <>1 hour before</></h2>
+     
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -117,9 +118,9 @@ const Form = () => {
           <option value="luxury_big_limo">Luxury Big Limo</option>
         </select>
 
-        <button type="submit" calassName="btn btn-primary">
-          Booking Now
-        </button>
+        <input type="submit"  value ="Booking Now"className="btn"/>
+          
+       
       </form>
     </div>
   );
