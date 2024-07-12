@@ -7,17 +7,14 @@
      height: 90vh;
    }
 
-   .home-container span{
-    text-align: center;
-    width: 100%;
-    padding: 3px;
-  }.home-container p{
+  
+  .home-container p{
     padding: 25px;
     font-size: 22.4px;
     font-style: inherit;
     font-family:cursive;
     color: rgb(124, 68, 28);
-    font-size: 40px;
+    font-size: 41.5px;
   }
 
   .one{
@@ -47,12 +44,11 @@
     width: 100%;
     
   }.btn-container{
-   
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 70%;
 
   }.btn-container .btn{
     width: 100%;
