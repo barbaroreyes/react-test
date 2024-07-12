@@ -62,7 +62,9 @@
     background-color:rgb(195,128,81);
     color:#FFFF;
     padding: 20px;
-    margin-top: 0 auto
+    margin-top: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
   }
   .home-container span{
     font-size:31px;
