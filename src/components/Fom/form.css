@@ -24,13 +24,12 @@ form input{
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    width: 100%;
-    border: 0.1  solid ;
+    width: 100%;  
     text-align: center;
     font-weight: 700;
     font-size: 20px;
     background-color: #F7F7FC;
-   
+   border: 1px solid rgb(209, 122, 60);;
 }
 .btn{
     background-color: rgb(209, 122, 60);
@@ -49,6 +48,7 @@ select{
     text-align: center;
     border-radius: 10px;
     background-color: #F7F7FC;
+    border: 1px solid rgb(209, 122, 60);;
 }
 select option{
     margin: 10px;
