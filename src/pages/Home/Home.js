@@ -8,21 +8,19 @@ const Home = () => {
 
     return (
     <div className='home-container'>
-         <div className='home_image_container'>
-        <img src={Corona} alt='pic'/></div>
-        <div className='welcome'>
+        <div className='home_image_container'>
+          <img src={Corona} alt='pic'/></div>
+    <div className='welcome'>
         <span>Welcome</span>
-  
-       </div>
-       <p >Luxury Rides For Less</p>
-       <div className = " btn-container">
-     <Link to='/form' className='btn btn-primary'>Book Instantly</Link>
+    </div>
 
-     
-     </div>
-     <span>Popping Your Rides</span>
-
-     <div></div>
+     <div className = " btn-container">
+      <Link to='/form'
+      className='btn'>
+      Book Instantly
+      </Link>
+      </div>
+       <p>Luxury Rides For Less</p>
     </div>
   );
 }

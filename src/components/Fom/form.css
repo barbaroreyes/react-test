@@ -5,7 +5,9 @@
     flex-direction: column;
 
 }
-
+a{
+    text-decoration: none;
+}
 form{
     display: flex;
     justify-content: center;
@@ -24,14 +26,14 @@ form input{
     width: 100%;
     border: 0.1  solid ;
     text-align: center;
-    color: #fff;
     font-weight: 700;
     font-size: 20px;
    
 }
 .btn{
     background-color: rgb(209, 122, 60);
-    border: none;
+   
+  
 }
 select{
    margin: 15px;

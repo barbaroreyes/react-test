@@ -4,7 +4,7 @@
      justify-content: space-around;
      align-items: center;
      background-color: #F7F7FC;
-     height: 92vh;
+     height: 90vh;
    }
 
    .home-container span{
@@ -57,12 +57,12 @@
   }.btn-container .btn{
     width: 100%;
     border: 1px solid;
-    margin: 10px;
     text-align: center;
-    padding: 5px ;
     border-radius: 10px;
     background-color:rgb(195,128,81);
-    color:#FFFF
+    color:#FFFF;
+    padding: 20px;
+    margin-top: 0 auto
   }
   .home-container span{
     font-size:31px;
