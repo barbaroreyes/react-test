@@ -62,7 +62,7 @@ label{
 @media (min-width: 768px){
     form input{
         margin: 10px;
-        width: 25%;
+        width: 100%;
     }.select{
         flex-direction: row;
     }
