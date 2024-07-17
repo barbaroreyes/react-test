@@ -1,9 +1,14 @@
 .formContainer{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
+   
+}
+.formContainer h2{
+    color: rgb(233, 228, 225);
 }
 a{
     text-decoration: none;
@@ -14,9 +19,9 @@ form{
     align-items: center;
     flex-direction: column;
     font-size: 22.4px;
-    font-style: inherit;
-    font-family:cursive;
     color: #0c1b6d;
+    font-size: bold;
+    font-weight: 700;
 }
 
 form input{
@@ -38,17 +43,20 @@ form input{
   
 }
 select{
-   margin: 15px;
+   margin:4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     width: 100%;
     text-align: center;
     border-radius: 10px;
     background-color: #F7F7FC;
-    border: 1px solid rgb(209, 122, 60);;
+    border: 1px solid rgb(209, 122, 60);
+}
+label{
+    color: rgb(233, 228, 225);
 }
 
 @media (min-width: 768px){

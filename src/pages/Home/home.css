@@ -3,18 +3,18 @@
      flex-direction: column;
      justify-content: space-around;
      align-items: center;
-    height: 90vh;
-     
+    height: 100vh;
+    
    }
 
   
   .home-container p{
     padding: 25px;
     font-size: 22.4px;
-    font-style: inherit;
-    font-family:cursive;
-    color: rgb(124, 68, 28);
+    
+    color: rgb(227, 217, 212);
     font-size: 41.5px;
+    
   }
 
   .one{
@@ -31,12 +31,10 @@
     
   }
   
+  
   .welcome{
-    padding: 10px;
-    
-  }.welcome span{
-    font-size:31px;
-    color: rgb(102,105,118);
+    font-size:40px;
+    color: rgb(227, 217, 212);
   }
   
   

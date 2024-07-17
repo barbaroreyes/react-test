@@ -2,9 +2,8 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  background-color: #F7F7FC;
- 
+ background-color: black;
+  
 }
 @keyframes App-logo-spin {
   from {
