@@ -20,7 +20,8 @@ const Home = () => {
       Book Instantly
       </Link>
       </div>
-       <p>Your Limo Service</p>
+      <p>Your Limo Service</p>
+
     </div>
   );
 }
