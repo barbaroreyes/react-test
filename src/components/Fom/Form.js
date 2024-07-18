@@ -105,7 +105,7 @@ const Form = () => {
           <option value="more_then_15">15+</option>
         </select>
 
-        <label>select your booking type</label>
+        <label>Select your Ride </label>
         <select
           name="rideType"
           onChange={handleChange}
