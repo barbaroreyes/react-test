@@ -90,4 +90,9 @@
       .btn-container{
         flex-direction: row;
       }
+      .btn-container p{
+        display: flex;
+        justify-content: center;
+        color:#FFFF;
+      }
   }
