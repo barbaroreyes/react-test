@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from './logo1.png'
+import {Link} from 'react-router-dom'
 import axios from "axios";
 import "./form.css";
 
@@ -38,7 +39,7 @@ const Form = () => {
 
   return (
     <div className="formContainer">
-      <h2> <img src ={Logo} alt ="name"/>1 hour before </h2>
+      <Link to='/'>Go Back  <img src ={Logo} alt ="name"/></Link>
     
       <form onSubmit={handleSubmit}>
         <input
@@ -119,6 +120,9 @@ const Form = () => {
         </select>
 
         <input type="submit"  value ="Booking Now"className="btn"/>
+      
+
+         
           
        
       </form>
